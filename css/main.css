@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  font-family: Merriweather, bold;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -15,25 +17,59 @@ body {
   padding: 0;
 }
 
-ul li {
-  display: flex;
-  width: 33%;
-}
-
 header {
-  color: #fff;
+  color: white;
   background-color: #d05c2e;
-  line-height: 1.5;
+  margin: 0;
 }
 
 img {
-  max-width: 40px;
+  display: flex;
+  width: 40px;
+  justify-content: center;
 }
 
 h1 {
   font-size: 2rem;
+  text-align: center;
   margin: 0;
-  padding: .5rem 0;
+}
+
+li {
+  width: 33.333%;
+  border: 1px solid #a63f38;
+}
+
+ul {
+  color: white;
+  background-color: #d05c2e;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+a:hover {
+  background-color: #a63f38;
+  color: #fff;
+}
+
+a {
+  color: white;
+  background-color: #d05c2e;
+  display: inline-block;
+  font-family: Georgia, serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
